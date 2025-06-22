@@ -32,3 +32,20 @@ Proyek ini merupakan implementasi algoritma genetika untuk menyelesaikan permasa
 ├── TSP.py                   # Script utama untuk menjalankan GA
 ├── medium (1).csv           # Dataset koordinat kota (tanpa header)
 └── README.md                # Dokumentasi proyek
+
+▶️ Cara Menjalankan
+Pastikan sudah menginstal dependensi:
+
+bash
+Copy
+Edit
+pip install pandas numpy matplotlib
+Jalankan script Python:
+
+bash
+Copy
+Edit
+python TSP.py
+Pastikan file medium (1).csv berada di path yang sesuai dengan file_path di script.
+
+
