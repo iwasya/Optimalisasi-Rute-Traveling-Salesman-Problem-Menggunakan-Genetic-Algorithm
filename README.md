@@ -1,51 +1,61 @@
+Tentu, ini versi lengkap README-nya yang bisa kamu *copy-paste* langsung ke GitHub:
+
+```markdown
 # 🧬 Genetic Algorithm untuk Traveling Salesman Problem (TSP)
 
-Proyek ini merupakan implementasi algoritma genetika untuk menyelesaikan permasalahan Traveling Salesman Problem (TSP) menggunakan Python. Dataset digunakan berasal dari [Kaggle TSP Dataset]([https://www.kaggle.com/datasets/whenamancodes/traveling-salesman-problem](https://www.kaggle.com/datasets/mexwell/traveling-salesman-problem) yang berisi koordinat 2D dari beberapa kota.
+Proyek ini merupakan implementasi algoritma genetika untuk menyelesaikan *Traveling Salesman Problem* (TSP) menggunakan Python. Dataset yang digunakan berasal dari [Kaggle TSP Dataset](https://www.kaggle.com/datasets/mexwell/traveling-salesman-problem), berisi koordinat 2D dari sejumlah kota.
 
 ---
 
 ## 📌 Deskripsi Proyek
 
-- Membangun model Genetic Algorithm (GA) untuk mencari rute optimal dari TSP.
-- Menggunakan dataset nyata dalam format `.csv` berisi titik koordinat kota.
-- Menampilkan rute terbaik hasil optimasi dan grafik konvergensi fitness.
-- Cocok untuk pembelajaran tentang optimasi, metaheuristik, dan AI.
+- Membangun model *Genetic Algorithm* (GA) untuk mencari rute optimal TSP
+- Menggunakan dataset `.csv` berisi titik koordinat kota
+- Menampilkan rute terbaik hasil optimasi dan grafik konvergensi nilai fitness
+- Proyek ini cocok untuk pembelajaran tentang algoritma optimasi, metaheuristik, dan AI
 
 ---
 
 ## 🧠 Metode: Genetic Algorithm (GA)
 
-- **Representasi kromosom**: urutan indeks kota (list integer)
-- **Inisialisasi populasi**: acak
+- **Representasi kromosom**: urutan indeks kota (*list of integers*)
+- **Inisialisasi populasi**: secara acak
 - **Seleksi**: tournament selection
 - **Crossover**: ordered crossover (OX)
 - **Mutasi**: swap mutation
-- **Evaluasi**: total jarak tempuh
-- **Output**: rute terpendek, visualisasi rute & grafik fitness
+- **Evaluasi**: total jarak tempuh rute
+- **Output**: rute terpendek, visualisasi rute optimal, dan grafik konvergensi fitness
 
 ---
 
-## 📁 Struktur File
+## 📁 Struktur Direktori
 
 ```bash
 .
-├── TSP.py                   # Script utama untuk menjalankan GA
-├── medium (1).csv           # Dataset koordinat kota (tanpa header)
-└── README.md                # Dokumentasi proyek
+├── TSP.py            # Script utama untuk menjalankan GA
+├── medium (1).csv    # Dataset koordinat kota (tanpa header)
+└── README.md         # Dokumentasi proyek
+```
 
-▶️ Cara Menjalankan
-Pastikan sudah menginstal dependensi:
+---
 
-bash
-Copy
-Edit
-pip install pandas numpy matplotlib
-Jalankan script Python:
+## ▶️ Cara Menjalankan
 
-bash
-Copy
-Edit
-python TSP.py
-Pastikan file medium (1).csv berada di path yang sesuai dengan file_path di script.
+1. **Instalasi dependensi:**
 
+   ```bash
+   pip install pandas numpy matplotlib
+   ```
+
+2. **Eksekusi program:**
+
+   ```bash
+   python TSP.py
+   ```
+
+> 🔔 Pastikan file `medium (1).csv` berada di direktori yang sesuai dengan `file_path` pada script.
+
+---
+
+```
 
