@@ -1,6 +1,6 @@
 # 🧬 Genetic Algorithm untuk Traveling Salesman Problem (TSP)
 
-Proyek ini merupakan implementasi algoritma genetika untuk menyelesaikan permasalahan Traveling Salesman Problem (TSP) menggunakan Python. Dataset digunakan berasal dari [Kaggle TSP Dataset](https://www.kaggle.com/datasets/whenamancodes/traveling-salesman-problem) yang berisi koordinat 2D dari beberapa kota.
+Proyek ini merupakan implementasi algoritma genetika untuk menyelesaikan permasalahan Traveling Salesman Problem (TSP) menggunakan Python. Dataset digunakan berasal dari [Kaggle TSP Dataset]([https://www.kaggle.com/datasets/whenamancodes/traveling-salesman-problem](https://www.kaggle.com/datasets/mexwell/traveling-salesman-problem) yang berisi koordinat 2D dari beberapa kota.
 
 ---
 
